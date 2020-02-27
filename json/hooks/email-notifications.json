@@ -1,0 +1,18 @@
+[
+  {
+    "site_id": "<site_id>",
+    "type": "email",
+    "event": "deploy_created",
+    "data": {
+      "email": "admin+netlify-deploys@hinterland.dev"
+    }
+  },
+  {
+    "site_id": "<site_id>",
+    "type": "email",
+    "event": "deploy_failed",
+    "data": {
+      "email": "admin+netlify-deploys@hinterland.dev"
+    }
+  }
+]

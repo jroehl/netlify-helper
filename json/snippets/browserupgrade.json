@@ -1,0 +1,14 @@
+[
+  {
+    "title": "html:browserupgrade",
+    "general": "<noscript>You need to enable JavaScript to run this app.</noscript><div class=\"browserupgrade\" style=\"display: none;\"><span>&#9888;</span><br />Sie benutzen einen <strong>veralteten</strong> Browser. Bitte <a href=\"http://browsehappy.com/\">updaten Sie Ihren Browser</a>, dies führt zu einer besseren Anzeige.</div>",
+    "general_position": "footer",
+    "goal_position": "footer"
+  },
+  {
+    "title": "style:browserupgrade",
+    "general": "<!-- [if lte IE 11]><style>.browserupgrade {display: block !important;font-family: 'Roboto', sans-serif;padding: 10px;text-align: center;background-color: #ff704d;box-shadow: 0 1px 3px #888;color: #fff;position: fixed;z-index: 9999;width: 100%;top: 0;}.browserupgrade a, .browserupgrade span { color: white; font-weight: bold;}</style><![endif] -->",
+    "general_position": "head",
+    "goal_position": "footer"
+  }
+]

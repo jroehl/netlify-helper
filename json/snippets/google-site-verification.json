@@ -1,0 +1,8 @@
+[
+  {
+    "title": "meta:google-site-verification",
+    "general": "<meta name=\"google-site-verification\" content=\"<content>\" />",
+    "general_position": "head",
+    "goal_position": "footer"
+  }
+]
