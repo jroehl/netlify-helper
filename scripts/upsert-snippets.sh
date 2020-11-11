@@ -56,7 +56,7 @@ function main() {
       )
     fi
 
-    echo "${dry_run}\"${method}\" - \"${title}\" ${upsert}"
+    echo "\"${site_id}\" -> ${dry_run}\"${method}\" - \"${title}\" ${upsert}"
     if [ ! -z ${dry_run+x} ]; then
       echo ${payload} | jq
     else

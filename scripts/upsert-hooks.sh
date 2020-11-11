@@ -40,10 +40,12 @@ function main() {
     }
     local event=$(_jq '.event')
     local type=$(_jq '.type')
+    local url=$(_jq '.data.url')
+    local email=$(_jq '.data.email')
 
     local hook_id="$(
-      echo ${result} | jq -r --arg typ "${type}" --arg evt "${event}" \
-        '.[] | select(.type == $typ and .event == $evt) | .id'
+      echo ${result} | jq -r --arg typ "${type}" --arg evt "${event}" --arg url "${url}" --arg email "${email}" \
+        'first(.[] | select(.type == $typ and .event == $evt and (.data.url == $url or .data.email == $email)) | .id)'
     )"
 
     local body=$(
@@ -63,7 +65,7 @@ function main() {
       )
     fi
 
-    echo "${dry_run}\"${method}\" - \"${type}:${event}\" ${upsert}"
+    echo "\"${site_id}\" -> ${dry_run}\"${method}\" - \"${type}:${event}\" ${upsert}"
     if [ ! -z ${dry_run+x} ]; then
       echo ${payload} | jq
     else

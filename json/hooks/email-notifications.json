@@ -5,7 +5,8 @@
     "event": "deploy_created",
     "data": {
       "email": "admin+netlify-deploys@hinterland.dev"
-    }
+    },
+    "disabled": true
   },
   {
     "site_id": "<site_id>",
@@ -13,6 +14,7 @@
     "event": "deploy_failed",
     "data": {
       "email": "admin+netlify-deploys@hinterland.dev"
-    }
+    },
+    "disabled": true
   }
 ]

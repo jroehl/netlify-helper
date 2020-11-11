@@ -1,0 +1,26 @@
+[
+  {
+    "site_id": "<site_id>",
+    "type": "url",
+    "event": "deploy_created",
+    "data": {
+      "url": "https://hook.integromat.com/ber1q8w8gos5ghqzbtfjvkqwzent1vvc"
+    }
+  },
+  {
+    "site_id": "<site_id>",
+    "type": "url",
+    "event": "deploy_failed",
+    "data": {
+      "url": "https://hook.integromat.com/ber1q8w8gos5ghqzbtfjvkqwzent1vvc"
+    }
+  },
+  {
+    "site_id": "<site_id>",
+    "type": "url",
+    "event": "deploy_building",
+    "data": {
+      "url": "https://hook.integromat.com/ber1q8w8gos5ghqzbtfjvkqwzent1vvc"
+    }
+  }
+]

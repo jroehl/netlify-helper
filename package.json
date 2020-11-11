@@ -1,0 +1,22 @@
+{
+  "name": "netlify-tools",
+  "version": "1.0.0",
+  "description": "Netlify helper tools to setup a Netlify page easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jroehl/netlify-helper.git"
+  },
+  "author": "jroehl <mail@hinterland.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jroehl/netlify-helper/issues"
+  },
+  "homepage": "https://github.com/jroehl/netlify-helper#readme",
+  "dependencies": {
+    "netlify-cli": "^2.68.3"
+  }
+}
