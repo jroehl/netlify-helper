@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jroehl/netlify-helper#readme",
   "dependencies": {
-    "netlify-cli": "^3.10.12"
+    "netlify-cli": "^12.12.0"
   }
 }
